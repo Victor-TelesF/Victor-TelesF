@@ -16,7 +16,7 @@ Desenvolvedor Backend em constante evolução, focado em construir sistemas robu
 ---
 
 ### 🚀 Projetos em Destaque
-- **[FinTrack API](LINK_DO_SEU_FINTRACK):** Sistema de gestão financeira pessoal com foco em modularidade, utilizando arquitetura limpa e testes automatizados.
+- **[FinTrack API](https://github.com/Victor-TelesF/FinTrack):** Sistema de gestão financeira pessoal com foco em modularidade, utilizando arquitetura limpa e testes automatizados.
 - **[Outro projeto relevante]:** Breve descrição do que ele resolve.
 
 ---
