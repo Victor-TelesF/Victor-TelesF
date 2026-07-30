@@ -11,7 +11,7 @@
 
 Sou desenvolvedor backend especializado em **Python**, com foco em **arquitetura de software** e **qualidade de código**. Minha abordagem prioriza a separação da lógica de negócio de frameworks e infraestrutura, aplicando princípios **SOLID**, **Clean Architecture** e **Domain-Driven Design**.
 
-Atualmente curso **Ciência da Computação** na UNINTER (previsão 2026) e consolido base matemática e analítica de forma autodidata para projetar arquiteturas complexas com rigor.
+Atualmente curso **Ciência da Computação** na UNINTER e consolido base matemática e analítica de forma autodidata para projetar arquiteturas complexas com rigor.
 
 **Busco oportunidades como Desenvolvedor Backend Python Júnior.**
 
