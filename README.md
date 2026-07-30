@@ -42,29 +42,24 @@ API REST para gestão de **carteiras de investimento diversificadas** (renda fix
 | Cobertura da camada de domínio | **100%** |
 | Padrões aplicados | Strategy, Factory, Protocol, Template Method |
 | Precisão numérica | `Decimal` em todo o domínio |
-| Status | Camada de domínio concluída. Persistência (~60%). API e auth em desenvolvimento. |
+| Status | Domínio, persistência e schemas concluídos. Error handling implementado. API REST e autenticação em desenvolvimento. |
 
 **Destaques técnicos:**
 - Camada `domain/` 100% isolada de frameworks — Python puro, testável independentemente
 - Hierarquia polimórfica de ativos mapeada via **Joined Table Inheritance** (SQLAlchemy 2.0)
+- Camada `schemas/` com **discriminated unions** (Pydantic v2) para validação polimórfica de ativos
+- `error_handlers.py` traduz exceções de domínio em respostas HTTP (404, 409, 422, 400)
 - Injeção de dependência via **Protocol** para fontes de preço (testável com mocks)
 - Posição de carteira **calculada**, não persistida — elimina dessincronização
 
----
-
-### 🪐 Cosmic Sandbox *(em planejamento)*
-
-Simulação gravitacional **N-corpos** com arquitetura extensível. Sandbox interativo onde é possível simular sistemas solares, lançar corpos celestes e observar a física em ação — integrando cálculo numérico, álgebra linear vetorizada e física de simulação.
-
-**Roteiro:** integradores numéricos (Euler → Verlet) → colisões com conservação de momento → pipeline de eventos (Kafka + TimescaleDB) → distribuição via Pyodide (WASM no navegador).
+> 💡 **Próxima exploração (sem data definida):** uma simulação gravitacional N-corpos (Cosmic Sandbox), integrando cálculo numérico e álgebra linear vetorizada.
 
 ---
 
 ## 📚 O que estou construindo agora
 
-- **FinTrack:** Finalizando a camada de persistência (SQLAlchemy 2.0 + Alembic) e preparando autenticação JWT
-- **Cosmic Sandbox:** Iniciando a Etapa 1 — simulação de sistema solar simples com integrador de Euler
-- **Base matemática:** Cálculo, álgebra linear e EDOs aplicados à simulação física
+- **FinTrack:** domínio, persistência e schemas concluídos — agora migrando para a camada de service, endpoints REST e autenticação JWT
+- **Base matemática:** consolidando cálculo e álgebra linear de forma autodidata, para dar suporte a arquiteturas mais exigentes no futuro
 
 ---
 
