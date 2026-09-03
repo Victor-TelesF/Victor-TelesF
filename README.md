@@ -1,19 +1,17 @@
 # Olá, eu sou o Victor Teles! 👋
 
-**Desenvolvedor Backend Python** — em transição de carreira, construindo sistemas robustos com arquitetura limpa.
+**Estudante de Ciência da Computação** com experiência prática em desenvolvimento backend Python e crescente interesse em **Engenharia de Dados**.
 
-[![Portfólio](https://img.shields.io/badge/Portfólio-121212?style=for-the-badge&logo=githubpages&logoColor=white)](https://victor-telesf.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-teles-5b1aa33ab/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:victortf986@gmail.com)
 
 ---
 
 ## 🎯 Sobre mim
 
-Sou desenvolvedor backend especializado em **Python**, com foco em **arquitetura de software** e **qualidade de código**. Minha abordagem prioriza a separação da lógica de negócio de frameworks e infraestrutura, aplicando princípios **SOLID**, **Clean Architecture** e **Domain-Driven Design**.
+Sou estudante de **Ciência da Computação** na UNINTER e venho construindo projetos práticos em Python, com foco em APIs orientadas a dados e modelagem de bancos relacionais. Também estou em formação Backend pela Alura.
 
-Atualmente curso **Ciência da Computação** na UNINTER e consolido base matemática e analítica de forma autodidata para projetar arquiteturas complexas com rigor.
-
-**Busco oportunidades como Desenvolvedor Backend Python Júnior.**
+Atualmente, estou aprofundando meus estudos em **Engenharia de Dados** — pipelines, modelagem dimensional e processos ETL — e busco uma oportunidade de estágio na área.
 
 ---
 
@@ -35,41 +33,35 @@ Atualmente curso **Ciência da Computação** na UNINTER e consolido base matem�
 
 ### 🏦 [FinTrack API](https://github.com/Victor-TelesF/FinTrack)
 
-API REST completa para gestão de **carteiras de investimento diversificadas** (renda fixa, variável, cripto). Possui arquitetura de domínio limpa com cálculos polimórficos de rentabilidade e suporte a indexadores dinâmicos (CDI, IPCA, Selic).
+API REST para consolidação e consulta de carteira de investimentos (renda fixa, variável e cripto), com camada de domínio isolada de frameworks.
 
-| Métrica | Valor |
-|---------|-------|
-| Suíte de testes | **159+ aprovados** |
-| Cobertura da camada de domínio | **100%** |
-| Padrões aplicados | Strategy, Factory, Protocol, Template Method |
+**Principais características:**
+- Modelagem de banco de dados relacional em PostgreSQL com SQLAlchemy 2.0 e versionamento de schemas via Alembic
+- Arquitetura com padrões de projeto (Strategy, Factory, Protocol) e uso de `Decimal` para precisão numérica
+- Testes automatizados com pytest (unitários e de integração)
+- Containerização com Docker e deploy em ambiente de nuvem (Render)
+- Autenticação JWT e validação de dados com Pydantic v2
+
+| Aspecto | Detalhe |
+|---|---|
+| Padrões | Strategy, Factory, Protocol |
 | Precisão numérica | `Decimal` em todo o domínio |
-| Status | **Produção (API REST, Autenticação JWT, Persistência PostgreSQL e Deploy automatizado via Render)** |
-
-**Destaques técnicos:**
-- Camada `domain/` 100% isolada de frameworks — Python puro, testável independentemente
-- Autenticação e Autorização via **OAuth2 com JWT** e hash seguro de senhas (`pwdlib`/`bcrypt`)
-- Controle de versão do banco de dados com **Alembic** e execução automática de migrações na esteira de CD
-- Hierarquia polimórfica de ativos mapeada via **Joined Table Inheritance** (SQLAlchemy 2.0)
-- Camada `schemas/` com **discriminated unions** (Pydantic v2) para validação polimórfica e serialização segura
-- Tratamento centralizado de exceções traduzindo erros de domínio em respostas HTTP (404, 401, 409, 422)
-- Posição de carteira **calculada em tempo de execução**, eliminando problemas de estado obsoleto no banco
-
-> 💡 **Próxima exploração (sem data definida):** uma simulação gravitacional N-corpos (Cosmic Sandbox), integrando cálculo numérico e álgebra linear vetorizada.
+| Status | API em produção no Render |
 
 ---
 
 ## 📚 O que estou construindo agora
 
-- **FinTrack:** aprimorando observabilidade da API REST e expandindo novos recursos de análise de carteira
-- **Base matemática:** consolidando cálculo e álgebra linear de forma autodidata, para dar suporte a arquiteturas e modelos mais exigentes
+- **FinTrack:** revisando pontos de arquitetura e consolidando a base do projeto
+- **Engenharia de Dados:** desenvolvendo um novo projeto com foco em pipelines de dados e séries temporais
 
 ---
 
-## 📬 Vamos nos conectar?
+## 📬 Contato
 
-- 🌐 **Portfólio:** [victor-telesf.github.io](https://victor-telesf.github.io/)
-- 📧 **Email:** [victortf986@gmail.com](mailto:victortf986@gmail.com)
+💼 [LinkedIn](https://www.linkedin.com/in/victor-teles-5b1aa33ab/)  
+📧 [victortf986@gmail.com](mailto:victortf986@gmail.com)
 
 ---
 
-*Sempre aberto a trocas técnicas sobre arquitetura, design patterns e boas práticas de engenharia de software.*
+*Aberto a trocas sobre arquitetura de software, boas práticas e Engenharia de Dados.*
