@@ -2,7 +2,7 @@
 
 Estou me desenvolvendo na área de **Backend Python**, criando projetos práticos com APIs REST, bancos de dados relacionais e regras de negócio.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-teles-5b1aa33ab/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.www.linkedin.com/in/victor-telesf/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:victortf986@gmail.com)
 [![Portfólio](https://img.shields.io/badge/Portfólio-181717?style=flat-square&logo=github&logoColor=white)](https://victor-telesf.github.io/)
 
@@ -108,6 +108,6 @@ Repositório de exercícios que aplicam programação e matemática a problemas 
 
 Estou aberto a oportunidades de estágio em Backend Python e a conversas sobre desenvolvimento de APIs.
 
-- [LinkedIn](https://www.linkedin.com/in/victor-teles-5b1aa33ab/)
+- [LinkedIn](https://www.www.linkedin.com/in/victor-telesf/)
 - [Portfólio](https://victor-telesf.github.io/)
 - [E-mail](mailto:victortf986@gmail.com)
