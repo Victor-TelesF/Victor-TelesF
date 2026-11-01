@@ -1,113 +1,89 @@
 # Olá, eu sou Victor Teles! 👋
 
-Estou me desenvolvendo na área de **Backend Python**, criando projetos práticos com APIs REST, bancos de dados relacionais e regras de negócio.
+Estou me desenvolvendo em **Backend Python e Análise de Dados**, construindo projetos com APIs REST, bancos de dados relacionais, estatística e visualização de dados. Busco oportunidades de **estágio nessas áreas** para aplicar meus conhecimentos e aprender com uma equipe.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-telesf/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:victortf986@gmail.com)
 [![Portfólio](https://img.shields.io/badge/Portfólio-181717?style=flat-square&logo=github&logoColor=white)](https://victor-telesf.github.io/)
 
----
-
 ## Sobre mim
 
-Tenho aprendido desenvolvimento backend principalmente por meio de projetos práticos, buscando entender não apenas como escrever o código, mas também como organizar as regras de negócio, estruturar uma API e conectá-la ao banco de dados.
+Aprendo construindo projetos e investigando problemas: como representar uma regra de negócio, preservar a consistência dos dados, calcular medidas estatísticas e visualizar resultados para facilitar sua interpretação.
 
-Meu foco atual está no ecossistema Python, com FastAPI, SQL, PostgreSQL e SQLAlchemy. Também venho adquirindo experiência com Docker e publicação de aplicações em serviços de nuvem.
+Meus projetos conectam programação a matemática, estatística e problemas de negócio, com aplicações em carteiras de investimento, análise de latência e consultas sobre uma empresa fictícia de serviços de nuvem. No backend, tenho praticado a separação entre domínio, API e persistência. Na área de dados, exploro consultas SQL, validação de medições, estatística descritiva e criação de gráficos com Python.
 
-Busco uma oportunidade de estágio em Backend Python, onde possa aplicar o que venho aprendendo, participar de projetos reais e evoluir junto com uma equipe.
+## Tecnologias que utilizo nos projetos
 
----
+| Área | Tecnologias e ferramentas |
+| --- | --- |
+| Backend | Python, FastAPI, Pydantic e APIs REST |
+| Banco de dados | SQL, PostgreSQL, SQLAlchemy e Alembic |
+| Análise e visualização de dados | Python, NumPy, Matplotlib e estatística descritiva |
+| Testes e integração contínua | pytest, HTTPX e GitHub Actions |
+| Ambiente e deploy | Git, Docker, Docker Compose, uv e Render |
 
-## Tecnologias e ferramentas
-
-### Backend
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-005571?style=flat-square)
-
-### Banco de dados
-
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
-![Alembic](https://img.shields.io/badge/Alembic-6C5CE7?style=flat-square&logo=python&logoColor=white)
-
-### Ferramentas e deploy
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Render](https://img.shields.io/badge/Render-000000?style=flat-square&logo=render&logoColor=white)
-
----
-
-## Projeto principal
+## Projetos em destaque
 
 ### 🏦 [FinTrack API](https://github.com/Victor-TelesF/FinTrack)
 
-API REST para registrar ativos e consolidar carteiras com diferentes tipos de investimento, incluindo renda fixa, ações, fundos imobiliários e criptomoedas.
+API REST para registrar operações e consolidar carteiras com renda fixa, ações, fundos imobiliários e criptomoedas. O desafio central é representar ativos com diferentes regras de rentabilidade em uma estrutura de domínio comum.
 
-O projeto foi criado para estudar como diferentes ativos, com regras próprias de rentabilidade, podem ser representados por uma estrutura de domínio comum.
+**O que desenvolvi e pratiquei:**
 
-### O que pratiquei no projeto
+- Modelagem de ativos, posições e transações com regras de negócio separadas do FastAPI e do SQLAlchemy;
+- Cálculos financeiros com `Decimal` e estratégias de cálculo para diferentes indexadores;
+- Autenticação com JWT, validação com Pydantic e persistência com PostgreSQL;
+- Migrações com Alembic e testes de domínio e integração com pytest e HTTPX;
+- GitHub Actions configurado para aplicar migrações e executar a suíte de testes com PostgreSQL;
+- Gerenciamento de dependências com uv, ambiente com Docker Compose e deploy no Render.
 
-- Modelagem de domínio com Python;
-- Organização das regras de negócio separadas do framework;
-- Desenvolvimento de API REST com FastAPI;
-- Validação de dados com Pydantic;
-- Persistência com PostgreSQL e SQLAlchemy;
-- Migrações de banco de dados com Alembic;
-- Autenticação por JWT;
-- Uso de `Decimal` em cálculos financeiros;
-- Containerização com Docker;
-- Configuração e deploy da API no Render;
-- Configuração das variáveis de ambiente e da conexão com o PostgreSQL em produção.
+Um dos aprendizados do projeto foi corrigir a ordenação de compras e vendas realizadas na mesma data, acompanhando a correção com testes de regressão para saldo e preço médio.
 
-[Documentação da API](https://fintrack-ye2t.onrender.com/docs) ·
-[Interface demonstrativa](https://fintrack-ui-eight.vercel.app) ·
-[Código do backend](https://github.com/Victor-TelesF/FinTrack)
+[Código e documentação](https://github.com/Victor-TelesF/FinTrack) · [Swagger da API](https://fintrack-ye2t.onrender.com/docs) · [Interface demonstrativa](https://fintrack-ui-eight.vercel.app)
 
-> A interface demonstrativa foi prototipada por geração de prompt em uma ferramenta da Vercel. Meu foco técnico no FinTrack está no backend, na modelagem do domínio e na integração da API com o banco de dados.
-
----
-
-## Outros projetos de estudo
+> A interface demonstrativa foi prototipada com geração por prompt em uma ferramenta da Vercel. Meu foco técnico no projeto está no backend, no domínio e na persistência.
 
 ### 📊 [API Performance Monitor](https://github.com/Victor-TelesF/api-performance-monitor)
 
-Projeto para registrar e analisar medições de latência de APIs, combinando conceitos de backend, banco de dados e estatística descritiva.
+Projeto em desenvolvimento que une **backend e análise de dados** para armazenar conjuntos de medições de latência, calcular estatísticas e gerar visualizações. As consultas estatísticas são disponibilizadas por uma API HTTP, e os gráficos são gerados pela camada de visualização do projeto. A versão atual utiliza medições fornecidas pelo usuário; a coleta automática de APIs externas ainda não está implementada.
 
-Entre os assuntos explorados estão média, mediana, variância, desvio padrão, percentis, outliers, FastAPI, PostgreSQL e Alembic.
+**O que estou praticando:**
 
-### 🧪 [Server Lab](https://github.com/Victor-TelesF/server-lab)
+- Criação e consulta de conjuntos de dados, com inclusão e remoção de medições;
+- Validação de medições para rejeitar valores negativos, booleanos e valores não finitos;
+- Média, mediana, variância, desvio padrão, percentis e identificação de outliers;
+- Histogramas e boxplots para visualizar a distribuição das latências;
+- Separação dos cálculos de domínio das rotas e da persistência;
+- PostgreSQL, SQLAlchemy e migrações com Alembic;
+- Visualizações em PNG na camada de visualização, com NumPy e Matplotlib;
+- Documentação da API com Swagger e ambiente com uv e Docker Compose.
 
-Repositório de exercícios que aplicam programação e matemática a problemas concretos, incluindo:
+### ☁️ [Nexus Cloud](https://github.com/Victor-TelesF/Nexus-Cloud)
 
-- Gerenciamento de satélites;
-- Simulação de movimento de projéteis;
-- Similaridade entre personagens utilizando vetores;
-- Otimização de rotas com distância euclidiana.
+Laboratório de **SQL e análise de dados** com dados fictícios de uma empresa de serviços de nuvem. O projeto propõe responder a pedidos das áreas comercial, financeira e de infraestrutura utilizando PostgreSQL.
 
----
+**O que estou praticando:**
 
-## Estudando atualmente
+- Consultas sobre clientes, serviços, contratos e infraestrutura;
+- Relacionamento entre tabelas para analisar contratações e identificar clientes sem contratos ativos;
+- Agregações para estudar preços e serviços mais contratados;
+- Interpretação de regras de negócio para transformar perguntas em consultas SQL;
+- Uso de PostgreSQL em um ambiente local com Docker Compose.
 
-- Desenvolvimento de APIs com FastAPI;
-- SQL e modelagem de bancos relacionais;
-- Arquitetura e organização de aplicações backend;
+O projeto está em andamento. O roteiro também prevê relatórios financeiros, análises com gráficos e um dashboard executivo como próximas etapas.
+
+## Aprofundando atualmente
+
+- Estatística descritiva, distribuição de dados, percentis e outliers;
+- Análise e visualização de dados com Python, NumPy e Matplotlib;
+- Testes automatizados de regras de negócio e integração de APIs;
+- SQL, modelagem relacional e consistência dos dados;
+- Organização de aplicações backend e tratamento de erros;
 - Autenticação e segurança de APIs;
-- Fundamentos de testes automatizados com pytest;
-- Docker e deploy de aplicações;
-- Estruturas de dados e algoritmos.
+- Estruturas de dados, algoritmos e fundamentos matemáticos.
 
----
+## Vamos conversar?
 
-## Contato
+Estou aberto a oportunidades de **estágio em Backend Python ou na área de Dados**, especialmente em atividades com Python, SQL, análise e visualização de dados.
 
-Estou aberto a oportunidades de estágio em Backend Python e a conversas sobre desenvolvimento de APIs.
-
-- [LinkedIn](https://www.linkedin.com/in/victor-telesf/)
-- [Portfólio](https://victor-telesf.github.io/)
-- [E-mail](mailto:victortf986@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/victor-telesf/) · [E-mail](mailto:victortf986@gmail.com) · [Portfólio](https://victor-telesf.github.io/)
