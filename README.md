@@ -6,9 +6,7 @@ Desenvolvo projetos para entender como regras de negócio viram APIs e como dado
 ajudam a responder perguntas. Estou em formação e busco oportunidades de
 **estágio em Backend Python ou Dados**.
 
-[![Portfólio](https://img.shields.io/badge/Portfólio-071019?style=for-the-badge&logo=github&logoColor=white)](https://victor-telesf.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-telesf/)
-[![E-mail](https://img.shields.io/badge/E--mail-334155?style=for-the-badge&logo=gmail&logoColor=white)](mailto:victortf986@gmail.com)
+[**Portfólio**](https://victor-telesf.github.io/) · [**LinkedIn**](https://www.linkedin.com/in/victor-telesf/) · [**E-mail**](mailto:victortf986@gmail.com)
 
 ## O que venho construindo
 
