@@ -10,20 +10,6 @@ ajudam a responder perguntas. Estou em formação e busco oportunidades de
 
 ## O que venho construindo
 
-### [FinTrack API](https://github.com/Victor-TelesF/FinTrack) · Backend e domínio
-
-API REST para registrar operações e consolidar carteiras de investimentos com
-renda fixa, ações, fundos imobiliários e criptomoedas.
-
-- Regras de rentabilidade separadas da API e da persistência, com `Decimal` nos cálculos financeiros.
-- Autenticação JWT, PostgreSQL, migrações com Alembic e testes automatizados.
-- Um aprendizado concreto: corrigir a ordem de compras e vendas na mesma data,
-  com testes de regressão para saldo e preço médio.
-
-[Código](https://github.com/Victor-TelesF/FinTrack) · [Swagger](https://fintrack-ye2t.onrender.com/docs) · [Demonstração](https://fintrack-ui-eight.vercel.app)
-
-<sub>Meu foco no FinTrack é o backend. A interface demonstrativa foi prototipada com geração por prompt em uma ferramenta da Vercel.</sub>
-
 ### [API Performance Monitor](https://github.com/Victor-TelesF/api-performance-monitor) · Backend e análise de dados
 
 API para armazenar medições de latência, calcular estatísticas e gerar cinco
