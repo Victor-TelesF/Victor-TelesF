@@ -10,6 +10,21 @@ ajudam a responder perguntas. Estou em formação e busco oportunidades de
 
 ## O que venho construindo
 
+### [CotaFlow API](https://github.com/Victor-TelesF/CotaFlow-API) · Backend e domínio financeiro
+
+Meu principal projeto de backend: API REST para acompanhar uma carteira de ações
+e FIIs brasileiros, do registro de compras e vendas à avaliação com cotações da brapi.
+
+- Autenticação JWT e senhas com Argon2, com histórico e posições por usuário.
+- Preço médio, custo e resultado não realizado com `Decimal`; validação de saldo
+  em todo o histórico, inclusive em operações retroativas.
+- Clean Architecture, PostgreSQL e Alembic, com testes de domínio, contratos HTTP
+  e integração para isolamento de usuários, rollback e concorrência.
+
+[Código](https://github.com/Victor-TelesF/CotaFlow-API) · [Experimentar no Swagger](https://cotaflow-api.onrender.com/docs) · [Arquitetura e exemplo](https://github.com/Victor-TelesF/CotaFlow-API#arquitetura)
+
+<sub>Primeira versão implementada. A validação integrada da versão publicada é a próxima etapa. Escopo: uma carteira em BRL por usuário, com ações e FIIs.</sub>
+
 ### [API Performance Monitor](https://github.com/Victor-TelesF/api-performance-monitor) · Backend e análise de dados
 
 API para armazenar medições de latência, calcular estatísticas e gerar cinco
@@ -38,7 +53,7 @@ organizado em perguntas das áreas comercial, financeira e de infraestrutura.
 
 | Área | Tecnologias |
 | --- | --- |
-| Backend | Python, FastAPI, Pydantic e APIs REST |
+| Backend e segurança | Python, FastAPI, Pydantic, APIs REST, JWT e Argon2 |
 | Dados e persistência | SQL, PostgreSQL, SQLAlchemy e Alembic |
 | Estatística e visualização | NumPy, Matplotlib e estatística descritiva |
 | Desenvolvimento | pytest, Git, GitHub Actions, Docker Compose, uv e Render |
