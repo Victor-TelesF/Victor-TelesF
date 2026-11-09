@@ -1,66 +1,53 @@
 # Victor Teles
 
-**Backend Python · SQL · Análise de Dados**
+**Desenvolvedor back-end Python**
 
-Desenvolvo projetos para entender como regras de negócio viram APIs e como dados
-ajudam a responder perguntas. Estou em formação e busco oportunidades de
-**estágio em Backend Python ou Dados**.
+Desenvolvo APIs com Python, FastAPI e PostgreSQL, com foco em regras de negócio,
+consistência dos dados e testes automatizados. Utilizo SQL e análise de dados
+como competências complementares ao desenvolvimento back-end.
 
-[**Portfólio**](https://victor-telesf.github.io/) · [**LinkedIn**](https://www.linkedin.com/in/victor-telesf/) · [**E-mail**](mailto:victortf986@gmail.com)
+Busco uma oportunidade de **estágio em desenvolvimento back-end**.
 
-## O que venho construindo
+[Portfólio](https://victor-telesf.github.io/) · [LinkedIn](https://www.linkedin.com/in/victor-telesf/) · [E-mail](mailto:victortf986@gmail.com)
 
-### [CotaFlow API](https://github.com/Victor-TelesF/CotaFlow-API) · Backend e domínio financeiro
+## Projetos selecionados
 
-Meu principal projeto de backend: API REST para acompanhar uma carteira de ações
-e FIIs brasileiros, do registro de compras e vendas à avaliação com cotações da brapi.
+### [CotaFlow](https://cota-flow-web.vercel.app/) — Carteira de investimentos
 
-- Autenticação JWT e senhas com Argon2, com histórico e posições por usuário.
-- Preço médio, custo e resultado não realizado com `Decimal`; validação de saldo
-  em todo o histórico, inclusive em operações retroativas.
-- Clean Architecture, PostgreSQL e Alembic, com testes de domínio, contratos HTTP
-  e integração para isolamento de usuários, rollback e concorrência.
+Aplicação para registrar compras e vendas de ações brasileiras e FIIs e
+consultar posições, preço médio e avaliação de mercado.
 
-[Código](https://github.com/Victor-TelesF/CotaFlow-API) · [Experimentar no Swagger](https://cotaflow-api.onrender.com/docs) · [Arquitetura e exemplo](https://github.com/Victor-TelesF/CotaFlow-API#arquitetura)
+- API em Python e FastAPI, com PostgreSQL, SQLAlchemy e Alembic.
+- Autenticação JWT, senhas com Argon2 e acesso individual às operações.
+- Cálculos financeiros com `Decimal` e validação de saldo em operações retroativas.
+- Interface em React e TypeScript, publicada na Vercel e conectada à API no Render.
 
-<sub>Primeira versão implementada. A validação integrada da versão publicada é a próxima etapa. Escopo: uma carteira em BRL por usuário, com ações e FIIs.</sub>
+[Acessar aplicação](https://cota-flow-web.vercel.app/) · [Código da API](https://github.com/Victor-TelesF/CotaFlow-API) · [Documentação da API](https://cotaflow-api.onrender.com/docs)
 
-### [API Performance Monitor](https://github.com/Victor-TelesF/api-performance-monitor) · Backend e análise de dados
+### [API Performance Monitor](https://github.com/Victor-TelesF/api-performance-monitor) — Análise de latência
 
-API para armazenar medições de latência, calcular estatísticas e gerar cinco
-tipos de gráficos em PNG com NumPy e Matplotlib.
+API para persistir medições de latência, consultar estatísticas e gerar gráficos
+em PNG. Reúne FastAPI, PostgreSQL, NumPy e Matplotlib, com validação, paginação,
+testes e migrações.
 
-- Datasets e medições persistidos em PostgreSQL, com validação de entradas e paginação.
-- Média, mediana, dispersão, percentis, análise por limite e possíveis outliers.
-- Cálculos de domínio separados das rotas, com testes, migrações e CI.
+A versão atual analisa medições enviadas pelo usuário.
 
-[Código](https://github.com/Victor-TelesF/api-performance-monitor) · [Swagger](https://api-performance-monitor-0vke.onrender.com/docs) · [Exemplo visual](https://github.com/Victor-TelesF/api-performance-monitor#experimente-em-três-passos)
+[Código e documentação](https://github.com/Victor-TelesF/api-performance-monitor) · [Swagger](https://api-performance-monitor-0vke.onrender.com/docs)
 
-<sub>Em desenvolvimento: utiliza medições enviadas pelo usuário. A coleta automática de APIs externas está planejada.</sub>
+### [Nexus Cloud](https://github.com/Victor-TelesF/Nexus-Cloud) — SQL aplicado a negócio
 
-### [Nexus Cloud](https://github.com/Victor-TelesF/Nexus-Cloud) · SQL e regras de negócio
+Laboratório de consultas PostgreSQL com dados fictícios de uma empresa de
+serviços de nuvem. Trabalha relacionamentos, agregações e indicadores de
+contratos, cobranças e receita recebida.
 
-Laboratório de análise com dados fictícios de uma empresa de serviços de nuvem,
-organizado em perguntas das áreas comercial, financeira e de infraestrutura.
+[Código e desafios](https://github.com/Victor-TelesF/Nexus-Cloud)
 
-- Consultas PostgreSQL com relacionamentos, agregações e interpretação de indicadores.
-- Análises sobre clientes, serviços, contratos, cobranças e receita recebida.
-- Roteiro de 30 desafios; gráficos em Jupyter e dashboard em Streamlit são etapas de evolução.
+## Tecnologias utilizadas
 
-[Código](https://github.com/Victor-TelesF/Nexus-Cloud) · [Desafios SQL](https://github.com/Victor-TelesF/Nexus-Cloud/blob/main/docs/02-desafios-sql.md)
+- **Back-end:** Python, FastAPI, Pydantic e APIs REST.
+- **Persistência:** SQL, PostgreSQL, SQLAlchemy e Alembic.
+- **Desenvolvimento:** pytest, Git, GitHub Actions, Docker Compose e uv.
+- **Complementares:** NumPy, Matplotlib, React e TypeScript.
 
-## Ferramentas que utilizo
-
-| Área | Tecnologias |
-| --- | --- |
-| Backend e segurança | Python, FastAPI, Pydantic, APIs REST, JWT e Argon2 |
-| Dados e persistência | SQL, PostgreSQL, SQLAlchemy e Alembic |
-| Estatística e visualização | NumPy, Matplotlib e estatística descritiva |
-| Desenvolvimento | pytest, Git, GitHub Actions, Docker Compose, uv e Render |
-
-Estou aprofundando testes de regras de negócio, SQL, estatística, segurança de
-APIs e fundamentos de algoritmos. Também reúno exercícios de matemática e
-programação no [Server Lab](https://github.com/Victor-TelesF/server-lab).
-
-No [portfólio](https://victor-telesf.github.io/), apresento o contexto dos projetos,
-as decisões técnicas e os links para experimentar as APIs.
+O [portfólio](https://victor-telesf.github.io/) reúne o contexto dos projetos,
+as decisões técnicas e os links para acessá-los.
