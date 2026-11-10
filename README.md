@@ -8,7 +8,7 @@ como competências complementares ao desenvolvimento back-end.
 
 Busco uma oportunidade de **estágio em desenvolvimento back-end**.
 
-[Portfólio](https://victor-telesf.github.io/) · [LinkedIn](https://www.linkedin.com/in/victor-telesf/) · [E-mail](mailto:victortf986@gmail.com)
+[Portfólio](https://victor-teles-portfolio.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/victor-telesf/) · [E-mail](mailto:victortf986@gmail.com)
 
 ## Projetos selecionados
 
@@ -49,5 +49,5 @@ contratos, cobranças e receita recebida.
 - **Desenvolvimento:** pytest, Git, GitHub Actions, Docker Compose e uv.
 - **Complementares:** NumPy, Matplotlib, React e TypeScript.
 
-O [portfólio](https://victor-telesf.github.io/) reúne o contexto dos projetos,
+O [portfólio](https://victor-teles-portfolio.vercel.app/) reúne o contexto dos projetos,
 as decisões técnicas e os links para acessá-los.
